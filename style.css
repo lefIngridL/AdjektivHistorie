@@ -1,0 +1,61 @@
+.body {
+    margin: 100svh;
+    padding: 100%;
+}
+#app {
+    display: grid;
+
+    grid-template-rows: 1fr 4fr ;
+    
+}
+
+.button {
+    border-radius: 50%;
+    background-color: aqua;
+    min-height: 10svh;
+    width: 10svh;
+    
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 3fr 3fr;
+    grid-template-rows: 3fr 3fr 3fr 3fr;
+    row-gap: 2svh;
+    column-gap: 5svh;
+    
+}
+#red{
+grid-column: 1/1;
+grid-row: 1/1
+}
+#green{
+    grid-column: 2/2 ;
+    grid-row: 1/1;
+}
+
+#man {
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+#cat {
+    grid-column: 1/1;
+    grid-row: 2/2;
+}
+#jumped {
+    grid-column: 1/1;
+    grid-row: 3/3;
+}
+#stared {
+    grid-column: 2/2;
+    grid-row: 3/3;
+}
+#pool {
+    grid-column: 1/1;
+    grid-row: 4/4;
+}
+#wall {
+    grid-column: 2/2;
+    grid-row: 4/4;
+}
+
